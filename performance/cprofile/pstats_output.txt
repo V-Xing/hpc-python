@@ -1,0 +1,16 @@
+         1861088 function calls (1789781 primitive calls) in 43.783 seconds
+
+   Ordered by: internal time
+   List reduced from 3356 to 10 due to restriction <10>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      200   36.186    0.181   36.186    0.181 heat.py:9(evolve)
+      236    1.864    0.008    1.864    0.008 {method 'read' of '_io.BufferedReader' objects}
+        2    1.768    0.884    2.754    1.377 font_manager.py:507(createFontList)
+    47/45    1.393    0.030    1.399    0.031 {built-in method _imp.create_dynamic}
+        1    0.246    0.246    0.246    0.246 {built-in method mkl._py_mkl_service.get_version}
+       60    0.211    0.004    0.512    0.009 afm.py:201(_parse_char_metrics)
+      368    0.146    0.000    0.146    0.000 {method 'get_sfnt' of 'matplotlib.ft2font.FT2Font' objects}
+   107531    0.103    0.000    0.153    0.000 afm.py:61(_to_float)
+      234    0.090    0.000    0.090    0.000 {built-in method marshal.loads}
+     2311    0.069    0.000    0.090    0.000 {built-in method builtins.next}
